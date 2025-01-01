@@ -78,9 +78,15 @@ app.get("/showarticles",async (req,res)=>{
   } catch (error) {
     
   }
-
-  
-
 })
+app.get("/", (req,res)=>{
+  try {
+    res.send("")
+    
+  } catch (error) {
+    
+  }
+})
+
 app.listen(3001);
 
